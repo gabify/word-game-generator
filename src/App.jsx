@@ -1,27 +1,19 @@
 import { useEffect, useState } from "react"
 import Card from "./components/Card"
 import Frame from "./components/Frame"
-import { 
-  filipinoTVShows, 
-  filipinoMovies, 
-  filipinoIdiomsSayings, 
-  ecosystem,
-  collegeLife,
-  famousAnime,
-  famousCartoons,
-  asianNovelas 
-} from './components/Words'
+import { categories } from './components/Words'
 
 function App() {
-  const categories = [
-    "Anime",
-    "Cartoons",
+  const availableCategories = [
+    "Famous Anime",
+    "Famous Cartoons",
     "Asian Novelas",
-    "College Life",
-    "Ecosystem",
     "Filipino TV Shows",
     "Filipino Movies",
     "Filipino Idioms / Sayings",
+    "90s Anime",
+    "Disney and Pixar Movies",
+    "Superhero  Cartoons"
   ]
   const [chosenCategory, setchosenCategory] = useState('')
   const [currentWord, setCurrentWord] = useState('')
@@ -31,40 +23,44 @@ function App() {
   const chooseCategory = (category) =>{
     setchosenCategory(category)
     setCurrentWord('')
-    const index = categories.findIndex((c) => c === category)
+    const index = availableCategories.findIndex((c) => c === category)
     console.log(index)
     switch(index){
       case 0:
-        setWordPool(famousAnime)
-        setWordCount(famousAnime.length)
+        setWordPool(categories.famousAnime)
+        setWordCount(categories.famousAnime.length)
         break
       case 1:
-        setWordPool(famousCartoons)
-        setWordCount(famousCartoons.length)
+        setWordPool(categories.famousCartoons)
+        setWordCount(categories.famousCartoons.length)
         break
       case 2:
-        setWordPool(asianNovelas)
-        setWordCount(asianNovelas.length)
+        setWordPool(categories.asianNovelas)
+        setWordCount(categories.asianNovelas.length)
         break
       case 3:
-        setWordPool(collegeLife)
-        setWordCount(collegeLife.length)
+        setWordPool(categories.filipinoMovies)
+        setWordCount(categories.filipinoMovies.length)
         break
       case 4:
-        setWordPool(ecosystem)
-        setWordCount(ecosystem.length)
+        setWordPool(categories.filipinoIdiomsSayings)
+        setWordCount(categories.filipinoIdiomsSayings.length)
         break
       case 5:
-        setWordPool(filipinoMovies)
-        setWordCount(filipinoMovies.length)
+        setWordPool(categories.filipinoTVShows)
+        setWordCount(categories.filipinoTVShows.length)
         break
       case 6:
-        setWordPool(filipinoIdiomsSayings)
-        setWordCount(filipinoIdiomsSayings.length)
+        setWordPool(categories.ninetiesAnime)
+        setWordCount(categories.ninetiesAnime.length)
         break
       case 7:
-        setWordPool(filipinoTVShows)
-        setWordCount(filipinoTVShows.length)
+        setWordPool(categories.superheroCartoons)
+        setWordCount(categories.superheroCartoons.length)
+        break
+      case 8:
+        setWordPool(categories.disneyPixarMovies)
+        setWordCount(categories.disneyPixarMovies.length)
         break
       
       default:
@@ -101,7 +97,7 @@ function App() {
         <div className="grid grid-cols-2 gap-3">
           <Frame>
             <div className="lg:grid grid-cols-2 gap-3">
-              {categories.map((category) =>
+              {availableCategories.map((category) =>
                 <Card
                   key={category}
                   handleClick={() => chooseCategory(category)}

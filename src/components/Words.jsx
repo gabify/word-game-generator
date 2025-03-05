@@ -1,4 +1,5 @@
-const filipinoTVShows = [
+const categories = {
+  filipinoTVShows : [
     "Ang Probinsyano", "Eat Bulaga", "Maalaala Mo Kaya", "Bubble Gang", "Goin' Bulilit",
     "Wowowin", "Kapuso Mo, Jessica Soho", "Rated K", "TV Patrol", "Magandang Buhay",
     "It’s Showtime", "Walang Hanggan", "Bagani", "Darna", "Encantadia",
@@ -19,9 +20,9 @@ const filipinoTVShows = [
     "Haplos", "Carmela", "Inday Will Always Love You", "Mga Batang Poz", "Owe My Love",
     "My Destiny", "With A Smile", "Ikaw Lang Ang Iibigin", "Bridges of Love", "Nasaan Ka Nang Kailangan Kita",
     "Love You Stranger", "Paraiso Ko'y Ikaw", "Because of You", "Hindi Ka Na Mag-iisa", "Makapiling Kang Muli"
-  ];
+  ],
   
-  const filipinoMovies = [
+  filipinoMovies: [
     "Heneral Luna", "Goyo: Ang Batang Heneral", "Four Sisters and a Wedding", "One More Chance", "Starting Over Again",
     "Hello, Love, Goodbye", "Barcelona: A Love Untold", "The Hows of Us", "Seven Sundays", "She's Dating the Gangster",
     "No Other Woman", "A Second Chance", "Kita Kita", "Crazy Beautiful You", "Die Beautiful",
@@ -41,9 +42,9 @@ const filipinoTVShows = [
     "Till There Was You", "Love Me Tomorrow", "All You Need Is Pag-Ibig", "Bakit Hindi Ka Crush ng Crush Mo?", "Must Be... Love",
     "Crazy Little Thing Called Love", "My Fairy Tail Love Story", "Biyaheng Lupa", "Dinig Sana Kita", "Senior Year",
     "Kubrador", "Ang Pagdadalaga ni Maximo Oliveros", "Ligo na Ü, Lapit na Me", "Blue Bustamante", "That Boy in the Dark"
-  ];
+  ],
   
-  const filipinoIdiomsSayings = [
+  filipinoIdiomsSayings : [
     "Itaga mo sa bato", "Maitim ang budhi", "Kapit sa patalim", "Balat sibuyas", "Nagbibilang ng poste",
     "Mahaba ang pisi", "Kumukulo ang dugo", "Magsunog ng kilay", "Kapus sa palad", "Halang ang bituka",
     "Bilog ang mundo", "Malakas ang loob", "Naglalaway sa pagkain", "Mabigat ang kamay", "Nagbukas ng dibdib",
@@ -59,9 +60,9 @@ const filipinoTVShows = [
     "Matigas ang ulo", "Butas ang bulsa", "Nagpapanggap na mabait", "Pasan ang daigdig", "Mataas ang pangarap",
     "Nasa Diyos ang awa, nasa tao ang gawa", "Kung walang tiyaga, walang nilaga", "Kung hindi ukol, hindi bubukol", "Ang taong walang kibo, nasa loob ang kulo",
     "Walang permanenteng bagay sa mundo", "Aanhin pa ang damo kung patay na ang kabayo", "Buhay alamang, paglukso’y patay"
-  ];
+  ],
 
-  const ecosystem = [
+  ecosystem : [
     "Ecosystem", "Biodiversity", "Habitat", "Food Chain", "Food Web",
     "Producers", "Consumers", "Decomposers", "Trophic Levels", "Energy Flow",
     "Photosynthesis", "Nutrient Cycle", "Carbon Cycle", "Nitrogen Cycle", "Water Cycle",
@@ -83,9 +84,9 @@ const filipinoTVShows = [
     "Population Growth", "Habitat Fragmentation", "Ecological Succession", "Biosphere", "Genetic Diversity",
     "Soil Microbes", "Aquatic Plants", "Territorial Behavior", "Fossil Fuels", "Energy Pyramid",
     "Leaf Litter", "Microhabitat", "Climatic Factors", "Anthropogenic Effects", "Biotic and Abiotic Factors"
-  ];
+  ],
 
-  const  animals = [
+  animals : [
       "Lion", "Tiger", "Elephant", "Giraffe", "Zebra", "Monkey", "Kangaroo", "Panda", "Koala", "Bear",
       "Cheetah", "Crocodile", "Dolphin", "Eagle", "Flamingo", "Fox", "Goat", "Hippopotamus", "Horse", "Jaguar",
       "Lemur", "Lizard", "Mole", "Narwhal", "Ostrich", "Otter", "Owl", "Parrot", "Peacock", "Penguin",
@@ -96,9 +97,9 @@ const filipinoTVShows = [
       "Hedgehog", "Hyena", "Jellyfish", "Ladybug", "Lobster", "Mantis", "Meerkat", "Mosquito", "Newt", "Ocelot",
       "Orangutan", "Pufferfish", "Quail", "Rattlesnake", "Seahorse", "Skunk", "Snail", "Squid", "Stingray", "Tapir",
       "Tuna", "Turkey", "Urchin", "Viper", "Warthog", "Woodpecker", "Zebu"
-    ];
+    ],
     
-    const professions = [
+    professions : [
       "Doctor", "Nurse", "Teacher", "Police Officer", "Firefighter", "Pilot", "Astronaut", "Artist", "Musician", "Chef",
       "Engineer", "Scientist", "Carpenter", "Electrician", "Mechanic", "Architect", "Farmer", "Dentist", "Veterinarian", "Librarian",
       "Judge", "Lawyer", "Soldier", "Bartender", "Plumber", "Fisherman", "Tailor", "Barber", "Photographer", "Journalist",
@@ -108,9 +109,9 @@ const filipinoTVShows = [
       "Psychologist", "Social Worker", "Real Estate Agent", "Jeweler", "Postman", "Radio Host", "Animator", "Biologist", "Botanist", "Geologist",
       "Physicist", "Surgeon", "Therapist", "Dietitian", "Archaeologist", "Marine Biologist", "Forensic Scientist", "Fire Investigator", "Event Planner", "Entrepreneur",
       "Interior Designer", "Data Analyst", "Cybersecurity Expert", "Astronomer", "Park Ranger", "Sports Commentator", "Sound Engineer", "Flight Attendant", "Tattoo Artist", "Drone Operator"
-    ];
+    ],
     
-    const objects = [
+    objects : [
       "Chair", "Table", "Lamp", "Sofa", "Couch", "Bed", "Pillow", "Blanket", "Clock", "Mirror",
       "Book", "Notebook", "Pencil", "Pen", "Scissors", "Eraser", "Stapler", "Paperclip", "Backpack", "Suitcase",
       "Sunglasses", "Watch", "Hat", "Shoes", "Gloves", "Belt", "Tie", "Jacket", "Umbrella", "Wallet",
@@ -120,9 +121,9 @@ const filipinoTVShows = [
       "Camera", "Tripod", "Drone", "Screwdriver", "Hammer", "Wrench", "Drill", "Nail", "Saw", "Paintbrush",
       "Bicycle", "Motorcycle", "Helmet", "Car", "Bus", "Truck", "Train", "Airplane", "Boat", "Submarine",
       "Ball", "Bat", "Glove", "Hula Hoop", "Yo-Yo", "Kite", "Puzzle", "Board Game", "Dominoes", "Chess"
-    ];
+    ],
     
-    const places = [
+    places : [
       "School", "Hospital", "Police Station", "Fire Station", "Library", "Mall", "Restaurant", "Cafe", "Airport", "Train Station",
       "Amusement Park", "Zoo", "Museum", "Cinema", "Theater", "Church", "Temple", "Mosque", "Park", "Playground",
       "Beach", "Mountain", "Lake", "River", "Island", "Cave", "Forest", "Jungle", "Waterfall", "Desert",
@@ -131,9 +132,9 @@ const filipinoTVShows = [
       "Hotel", "Resort", "Casino", "Ferry Terminal", "Highway", "Subway Station", "Cruise Ship", "Tower", "Palace", "Castle",
       "Fortress", "Monument", "Plaza", "Square", "Embassy", "Consulate", "Harbor", "Lighthouse", "Observatory", "Arena",
       "Cemetery", "Campsite", "Bakery", "Butcher Shop", "Grocery Store", "Flower Shop", "Toy Store", "Music Store", "Art Gallery", "Courthouse"
-    ];
+    ],
 
-    const collegeLife = [
+    collegeLife : [
       "Lecture", "Professor", "Dormitory", "Library", "Textbook", "Notebook", "Highlighter", "Exam", "Quiz", "Assignment",
       "Thesis", "Group Project", "Presentation", "Midterms", "Finals", "Syllabus", "Lecture Hall", "Laboratory", "Internship", "Scholarship",
       "Tuition", "Campus", "Backpack", "Cafeteria", "Meal Plan", "Coffee", "Energy Drink", "Student ID", "Registration", "Transcript",
@@ -144,9 +145,9 @@ const filipinoTVShows = [
       "Orientation", "Freshman", "Sophomore", "Junior", "Senior", "Alumni", "Dean’s List", "Honor Roll", "Valedictorian", "Salutatorian",
       "Greek Life", "Fraternity", "Sorority", "Event Ticket", "Concert", "Study Abroad", "Exchange Student", "Lecture Notes", "E-Learning", "Coding Bootcamp",
       "Research Paper", "Citation", "Plagiarism", "Lab Report", "Essay", "Debate", "Case Study", "Field Trip", "Extracurricular", "Self-Study"
-    ];
+    ],
 
-    const asianNovelas = [
+    asianNovelas : [
       "Boys Over Flowers", "Meteor Garden", "Full House", "Autumn in My Heart", "Winter Sonata", "My Love from the Star", "Descendants of the Sun", "Crash Landing on You", "The Heirs", "Goblin",
       "Strong Woman Do Bong Soon", "Weightlifting Fairy Kim Bok Joo", "Hotel Del Luna", "Vincenzo", "It's Okay to Not Be Okay", "Business Proposal", "True Beauty", "Start-Up", "Twenty-Five Twenty-One", "Extraordinary Attorney Woo",
       "Reborn Rich", "Hometown Cha-Cha-Cha", "While You Were Sleeping", "Legend of the Blue Sea", "The King: Eternal Monarch", "Pinocchio", "W: Two Worlds", "Secret Garden", "Itaewon Class", "A Love So Beautiful",
@@ -157,9 +158,9 @@ const filipinoTVShows = [
       "Marimar", "Pangako Sa’Yo", "Sana Maulit Muli", "Tayong Dalawa", "On the Wings of Love", "Forevermore", "Wildflower", "The Legal Wife", "Walang Hanggan", "The Killer Bride",
       "Kadenang Ginto", "Lobo", "Imortal", "La Luna Sangre", "Ang Probinsyano", "Mara Clara", "Maria Clara at Ibarra", "The General’s Daughter", "Dahil May Isang Ikaw", "Halik",
       "Gulong ng Palad", "Ikaw Lang Ang Iibigin", "Maging Sino Ka Man", "Ika-6 na Utos", "My Husband’s Lover", "Amaya", "Encantadia", "Mulawin", "Majika", "Sugo"
-    ];
+    ],
 
-    const famousAnime = [
+    famousAnime : [
       "Naruto", "Naruto Shippuden", "Boruto: Naruto Next Generations", "One Piece", "Dragon Ball", "Dragon Ball Z", "Dragon Ball Super", "Attack on Titan", "Demon Slayer", "Jujutsu Kaisen",
       "My Hero Academia", "Hunter x Hunter", "Bleach", "Black Clover", "Fullmetal Alchemist: Brotherhood", "Death Note", "Tokyo Revengers", "Chainsaw Man", "Sword Art Online", "Re:Zero - Starting Life in Another World",
       "No Game No Life", "Code Geass", "Steins;Gate", "Neon Genesis Evangelion", "Cowboy Bebop", "Trigun", "Rurouni Kenshin", "Fairy Tail", "Blue Exorcist", "Noragami",
@@ -170,9 +171,9 @@ const filipinoTVShows = [
       "Parasyte", "Hellsing", "Devilman Crybaby", "Akame ga Kill!", "High School DxD", "Gantz", "Elfen Lied", "Mirai Nikki", "Higurashi no Naku Koro Ni", "Tokyo Ghoul",
       "Psycho-Pass", "Monster", "Vivy: Fluorite Eye's Song", "Made in Abyss", "The Promised Neverland", "Revolutionary Girl Utena", "Berserk", "Ghost in the Shell: Stand Alone Complex", "Serial Experiments Lain", "Texhnolyze",
       "Samurai Champloo", "The Great Pretender", "Baccano!", "Durarara!!", "Barakamon", "Mushoku Tensei", "Summertime Render", "Zom 100: Bucket List of the Dead", "Hyouka", "March Comes in Like a Lion"
-    ];
+    ],
 
-    const famousCartoons = [
+    famousCartoons : [
       "Tom and Jerry", "Scooby-Doo, Where Are You!", "Looney Tunes", "The Flintstones", "The Jetsons", "Popeye the Sailor", "Felix the Cat", "Mickey Mouse", "Donald Duck", "Goofy",
       "DuckTales", "Chip 'n Dale: Rescue Rangers", "Darkwing Duck", "TaleSpin", "Gargoyles", "The Simpsons", "Family Guy", "American Dad!", "Futurama", "King of the Hill",
       "The Powerpuff Girls", "Dexter’s Laboratory", "Johnny Bravo", "Ed, Edd n Eddy", "Courage the Cowardly Dog", "Codename: Kids Next Door", "Samurai Jack", "Teen Titans", "Justice League", "Batman: The Animated Series",
@@ -183,21 +184,47 @@ const filipinoTVShows = [
       "Doug", "Rocko’s Modern Life", "CatDog", "As Told by Ginger", "The Fairly OddParents", "Danny Phantom", "Jimmy Neutron: Boy Genius", "My Life as a Teenage Robot", "The Loud House", "Big City Greens",
       "Phineas and Ferb", "Gravity Falls", "Recess", "Kim Possible", "Lilo & Stitch: The Series", "House of Mouse", "Chip 'n' Dale: Park Life", "The Emperor’s New School", "Fish Hooks", "Amphibia",
       "The Owl House", "Bluey", "Peppa Pig", "Shaun the Sheep", "Larva", "Oggy and the Cockroaches", "Zig & Sharko", "Mr. Bean: The Animated Series", "Pocoyo", "Oswald"
-    ];
+    ],
+
+    disneyPixarMovies : [
+      "Snow White and the Seven Dwarfs", "Cinderella", "Sleeping Beauty", "Beauty and the Beast", "The Little Mermaid", "Aladdin", "The Lion King", "Mulan", "Pocahontas", "Hercules",
+      "Tarzan", "The Hunchback of Notre Dame", "The Princess and the Frog", "Frozen", "Frozen II", "Moana", "Encanto", "Raya and the Last Dragon", "Tangled", "Brave",
+      "Zootopia", "Big Hero 6", "Wreck-It Ralph", "Ralph Breaks the Internet", "The Emperor's New Groove", "Lilo & Stitch", "Treasure Planet", "Atlantis: The Lost Empire", "Brother Bear", "Bolt",
+      "A Bug's Life", "Toy Story", "Toy Story 2", "Toy Story 3", "Toy Story 4", "Finding Nemo", "Finding Dory", "Monsters, Inc.", "Monsters University", "Cars",
+      "Cars 2", "Cars 3", "The Incredibles", "Incredibles 2", "Ratatouille", "Up", "Wall-E", "Inside Out", "Inside Out 2", "Luca",
+      "Soul", "Turning Red", "Elemental", "The Good Dinosaur", "Onward", "Coco", "Peter Pan", "Alice in Wonderland", "The Jungle Book", "Dumbo",
+      "Bambi", "Robin Hood", "The Aristocats", "Lady and the Tramp", "101 Dalmatians", "Oliver & Company", "Fantasia", "Fantasia 2000", "The Rescuers", "The Rescuers Down Under",
+      "The Sword in the Stone", "The Black Cauldron", "The Fox and the Hound", "Meet the Robinsons", "Chicken Little", "Dinosaur", "The Great Mouse Detective", "Home on the Range", "Make Mine Music", "Saludos Amigos",
+      "The Three Caballeros", "Melody Time", "Fun and Fancy Free", "The Adventures of Ichabod and Mr. Toad", "Strange World", "Wish", "Jungle Cruise", "The Haunted Mansion", "Pinocchio", "A Goofy Movie",
+      "The Tigger Movie", "Pooh's Grand Adventure", "Winnie the Pooh", "Christopher Robin", "Frankenweenie", "The Nightmare Before Christmas", "James and the Giant Peach", "Mars Needs Moms", "Planes", "Planes: Fire & Rescue"
+    ],
+
+    superheroCartoons : [
+      "Batman: The Animated Series", "Superman: The Animated Series", "Justice League", "Justice League Unlimited", "Teen Titans", "Teen Titans Go!", "The Batman", "Batman Beyond", "Young Justice", "Static Shock",
+      "X-Men: The Animated Series", "X-Men: Evolution", "Spider-Man: The Animated Series", "The Spectacular Spider-Man", "Ultimate Spider-Man", "Spider-Man and His Amazing Friends", "Wolverine and the X-Men", "Hulk and the Agents of S.M.A.S.H.", "Avengers: Earth's Mightiest Heroes", "Avengers Assemble",
+      "Iron Man: Armored Adventures", "The Incredible Hulk", "Fantastic Four: World's Greatest Heroes", "Super Friends", "The New Batman Adventures", "The Brave and the Bold", "Green Lantern: The Animated Series", "Legion of Super Heroes", "The Tick", "Darkwing Duck",
+      "Gargoyles", "Big Hero 6: The Series", "The Incredibles (Series)", "Mighty Morphin Power Rangers (Animated)", "Captain Planet and the Planeteers", "Men in Black: The Animated Series", "Ben 10", "Ben 10: Alien Force", "Ben 10: Ultimate Alien", "Ben 10: Omniverse",
+      "The Mask: Animated Series", "Spawn: The Animated Series", "Hellboy: Blood and Iron", "Black Panther (2009)", "W.I.T.C.H.", "Teenage Mutant Ninja Turtles (1987)", "Teenage Mutant Ninja Turtles (2003)", "Teenage Mutant Ninja Turtles (2012)", "Teenage Mutant Ninja Turtles (2018)", "The Super Hero Squad Show",
+      "Mighty Ducks: The Animated Series", "Iron Man (1994)", "Silver Surfer", "The Zeta Project", "Batman: The Brave and the Bold", "Beware the Batman", "Marvel's Spider-Man (2017)", "What If...?", "Invincible", "The Boys: Diabolical",
+      "Harley Quinn (Animated Series)", "DC Super Hero Girls", "The Batman/Superman Hour", "Ultimate Avengers", "Ultimate Avengers 2", "The Death of Superman", "Superman: Red Son", "Justice League: Doom", "Justice League: War", "Justice League: Crisis on Two Earths",
+      "Batman: Mask of the Phantasm", "Batman: The Long Halloween", "Batman: Hush", "Batman: Year One", "Batman vs. Teenage Mutant Ninja Turtles", "The LEGO Batman Movie", "Teen Titans: The Judas Contract", "Batman: Bad Blood", "Superman: Man of Tomorrow", "Green Lantern: First Flight",
+      "Wonder Woman (2009)", "Batman: Gotham Knight", "Justice League: The Flashpoint Paradox", "Superman/Batman: Public Enemies", "Superman/Batman: Apocalypse", "Batman & Mr. Freeze: SubZero", "Batman: Under the Red Hood", "Batman: The Dark Knight Returns", "Batman: Assault on Arkham", "Batman Ninja"
+    ],
+
+    ninetiesAnime : [
+      "Dragon Ball Z", "Sailor Moon", "Yu Yu Hakusho", "Ranma ½", "Detective Conan", "Rurouni Kenshin", "Cardcaptor Sakura", "Neon Genesis Evangelion", "Trigun", "Cowboy Bebop",
+      "Serial Experiments Lain", "Great Teacher Onizuka", "Initial D", "Berserk", "Slayers", "Revolutionary Girl Utena", "Outlaw Star", "Martian Successor Nadesico", "Fushigi Yuugi", "Escaflowne",
+      "Magic Knight Rayearth", "Digimon Adventure", "Pokémon", "Medabots", "Hellsing", "Hunter x Hunter (1999)", "One Piece", "Gundam Wing", "Mobile Suit Gundam 0083", "Mobile Suit Gundam: The 08th MS Team",
+      "Mobile Suit Gundam X", "The Vision of Escaflowne", "Macross Plus", "Akira", "Vampire Hunter D: Bloodlust", "Ninja Scroll", "Bastard!!", "Golden Boy", "Blue Seed", "Yu-Gi-Oh!",
+      "Sorcerous Stabber Orphen", "Tenchi Muyo!", "Dual! Parallel Trouble Adventure", "Serial Experiments Lain", "Nadesico", "Bubblegum Crisis: Tokyo 2040", "Magic Users Club", "Revolutionary Girl Utena", "El Hazard", "Kareshi Kanojo no Jijou",
+      "Fancy Lala", "Future GPX Cyber Formula", "Jungle wa Itsumo Hare nochi Guu", "Haibane Renmei", "Ghost in the Shell", "Boogiepop Phantom", "Hoshin Engi", "Naruto (Early 1999)", "Turn A Gundam", "Silent Möbius",
+      "Gokudo", "Shaman King (1999)", "Saber Marionette J", "Those Who Hunt Elves", "The Big O", "Space Battleship Yamato", "Pet Shop of Horrors", "Blue Gender", "Infinite Ryvius", "Now and Then, Here and There",
+      "Serial Experiments Lain", "NieA_7", "I My Me! Strawberry Eggs", "Fancy Lala", "Legend of Basara", "Key the Metal Idol", "Zoids", "Betterman", "Detonator Orgun", "DNA²",
+      "Harlock Saga", "Mahoromatic", "Slam Dunk", "Saint Seiya", "Twelve Kingdoms", "Ghost Sweeper Mikami", "Magic Kaito", "Legend of the Galactic Heroes", "Super Doll Licca-chan", "Crayon Shin-chan"
+    ]
     
+};
     
   
-  export { 
-    filipinoTVShows, 
-    filipinoMovies, 
-    filipinoIdiomsSayings, 
-    ecosystem,
-    animals,
-    professions,
-    places,
-    collegeLife,
-    famousAnime,
-    famousCartoons,
-    asianNovelas 
-  };
+  export { categories };
   
