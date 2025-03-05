@@ -13,8 +13,8 @@ A simple and fun word game generator built with **React** and **Vite**! Users ca
 - **Vite** – Fast build tool for modern web development  
 - **Tailwind CSS** – For styling  
 
-## 📦 How to use the App?
-Just visit [https://habit-tracker-lime-chi.vercel.app/](https://habit-tracker-lime-chi.vercel.app/)
+## 🔗 Demo
+Just visit [https://word-game-generator-three.vercel.app/](https://word-game-generator-three.vercel.app/)
 
 ## 🎮 How to Play
 1. Choose a category from the available options  
@@ -46,17 +46,21 @@ Just visit [https://habit-tracker-lime-chi.vercel.app/](https://habit-tracker-li
    ```
 5. Open your browser and go to `http://localhost:5173/`  
 
-## Found a bug?
+## 🐞 Found a bug?
 If you found an issue or would like to submit an improvement to this project, please submit an issue on the issue tab above.
 If you like to submit a PR with a fix, reference the issue you created.
 
-## Known issues (Work in progress)
+## ⚠️ Known issues (Work in progress)
 This project is still ongoing and it needs a massive improvement!
 
 1. No error handling: It does not have a user-friendly error message or template
 
-## Like this project?
+## 👍 Like this project?
 If you like this project, you can give it a star. I'm still learning how to code so a few motivation will help! 🥺
+
+## ❤️ Speacial Thanks
+This section is dedicated for the open source component I used in this app
+-[Contribute icons created by kawalanicon - Flaticon](https://www.flaticon.com/free-icons/contribute)
 
 ## 📜 License
 This project is open-source and available under the **MIT License**.  
