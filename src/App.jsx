@@ -1,14 +1,27 @@
 import { useEffect, useState } from "react"
 import Card from "./components/Card"
 import Frame from "./components/Frame"
-import { filipinoTVShows, filipinoMovies, filipinoIdiomsSayings, ecosystem } from './components/Words'
+import { 
+  filipinoTVShows, 
+  filipinoMovies, 
+  filipinoIdiomsSayings, 
+  ecosystem,
+  collegeLife,
+  famousAnime,
+  famousCartoons,
+  asianNovelas 
+} from './components/Words'
 
 function App() {
   const categories = [
+    "Anime",
+    "Cartoons",
+    "Asian Novelas",
+    "College Life",
+    "Ecosystem",
     "Filipino TV Shows",
     "Filipino Movies",
     "Filipino Idioms / Sayings",
-    "Ecosystem"
   ]
   const [chosenCategory, setchosenCategory] = useState('')
   const [currentWord, setCurrentWord] = useState('')
@@ -22,20 +35,36 @@ function App() {
     console.log(index)
     switch(index){
       case 0:
-        setWordPool(filipinoTVShows)
-        setWordCount(filipinoTVShows.length)
+        setWordPool(famousAnime)
+        setWordCount(famousAnime.length)
         break
       case 1:
+        setWordPool(famousCartoons)
+        setWordCount(famousCartoons.length)
+        break
+      case 2:
+        setWordPool(asianNovelas)
+        setWordCount(asianNovelas.length)
+        break
+      case 3:
+        setWordPool(collegeLife)
+        setWordCount(collegeLife.length)
+        break
+      case 4:
+        setWordPool(ecosystem)
+        setWordCount(ecosystem.length)
+        break
+      case 5:
         setWordPool(filipinoMovies)
         setWordCount(filipinoMovies.length)
         break
-      case 2:
+      case 6:
         setWordPool(filipinoIdiomsSayings)
         setWordCount(filipinoIdiomsSayings.length)
         break
-      case 3:
-        setWordPool(ecosystem)
-        setWordCount(ecosystem.length)
+      case 7:
+        setWordPool(filipinoTVShows)
+        setWordCount(filipinoTVShows.length)
         break
       
       default:

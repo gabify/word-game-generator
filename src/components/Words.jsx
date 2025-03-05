@@ -84,6 +84,120 @@ const filipinoTVShows = [
     "Soil Microbes", "Aquatic Plants", "Territorial Behavior", "Fossil Fuels", "Energy Pyramid",
     "Leaf Litter", "Microhabitat", "Climatic Factors", "Anthropogenic Effects", "Biotic and Abiotic Factors"
   ];
+
+  const  animals = [
+      "Lion", "Tiger", "Elephant", "Giraffe", "Zebra", "Monkey", "Kangaroo", "Panda", "Koala", "Bear",
+      "Cheetah", "Crocodile", "Dolphin", "Eagle", "Flamingo", "Fox", "Goat", "Hippopotamus", "Horse", "Jaguar",
+      "Lemur", "Lizard", "Mole", "Narwhal", "Ostrich", "Otter", "Owl", "Parrot", "Peacock", "Penguin",
+      "Polar Bear", "Porcupine", "Rabbit", "Raccoon", "Rhinoceros", "Scorpion", "Shark", "Sloth", "Snake", "Squirrel",
+      "Starfish", "Swan", "Tarantula", "Tortoise", "Toucan", "Vulture", "Walrus", "Whale", "Wolf", "Yak",
+      "Alpaca", "Armadillo", "Beetle", "Bison", "Buffalo", "Butterfly", "Camel", "Caribou", "Chameleon", "Chimpanzee",
+      "Clownfish", "Crab", "Deer", "Dragonfly", "Eel", "Elk", "Ferret", "Gazelle", "Gorilla", "Grasshopper",
+      "Hedgehog", "Hyena", "Jellyfish", "Ladybug", "Lobster", "Mantis", "Meerkat", "Mosquito", "Newt", "Ocelot",
+      "Orangutan", "Pufferfish", "Quail", "Rattlesnake", "Seahorse", "Skunk", "Snail", "Squid", "Stingray", "Tapir",
+      "Tuna", "Turkey", "Urchin", "Viper", "Warthog", "Woodpecker", "Zebu"
+    ];
+    
+    const professions = [
+      "Doctor", "Nurse", "Teacher", "Police Officer", "Firefighter", "Pilot", "Astronaut", "Artist", "Musician", "Chef",
+      "Engineer", "Scientist", "Carpenter", "Electrician", "Mechanic", "Architect", "Farmer", "Dentist", "Veterinarian", "Librarian",
+      "Judge", "Lawyer", "Soldier", "Bartender", "Plumber", "Fisherman", "Tailor", "Barber", "Photographer", "Journalist",
+      "Actor", "Director", "Banker", "Cashier", "Secretary", "Receptionist", "Baker", "Butcher", "Blacksmith", "Magician",
+      "Dancer", "Fashion Designer", "Tour Guide", "Athlete", "Coach", "Referee", "News Anchor", "Writer", "Editor", "Software Developer",
+      "Graphic Designer", "Game Developer", "Scientist", "Meteorologist", "Zookeeper", "Florist", "Construction Worker", "Truck Driver", "Security Guard", "Paramedic",
+      "Psychologist", "Social Worker", "Real Estate Agent", "Jeweler", "Postman", "Radio Host", "Animator", "Biologist", "Botanist", "Geologist",
+      "Physicist", "Surgeon", "Therapist", "Dietitian", "Archaeologist", "Marine Biologist", "Forensic Scientist", "Fire Investigator", "Event Planner", "Entrepreneur",
+      "Interior Designer", "Data Analyst", "Cybersecurity Expert", "Astronomer", "Park Ranger", "Sports Commentator", "Sound Engineer", "Flight Attendant", "Tattoo Artist", "Drone Operator"
+    ];
+    
+    const objects = [
+      "Chair", "Table", "Lamp", "Sofa", "Couch", "Bed", "Pillow", "Blanket", "Clock", "Mirror",
+      "Book", "Notebook", "Pencil", "Pen", "Scissors", "Eraser", "Stapler", "Paperclip", "Backpack", "Suitcase",
+      "Sunglasses", "Watch", "Hat", "Shoes", "Gloves", "Belt", "Tie", "Jacket", "Umbrella", "Wallet",
+      "Phone", "Laptop", "Tablet", "Remote", "Headphones", "Charger", "Flashlight", "Keyboard", "Mouse", "Television",
+      "Fan", "Refrigerator", "Microwave", "Toaster", "Blender", "Dishwasher", "Stove", "Oven", "Washing Machine", "Iron",
+      "Towel", "Shampoo", "Soap", "Toothbrush", "Toothpaste", "Comb", "Hairbrush", "Perfume", "Deodorant", "Lotion",
+      "Camera", "Tripod", "Drone", "Screwdriver", "Hammer", "Wrench", "Drill", "Nail", "Saw", "Paintbrush",
+      "Bicycle", "Motorcycle", "Helmet", "Car", "Bus", "Truck", "Train", "Airplane", "Boat", "Submarine",
+      "Ball", "Bat", "Glove", "Hula Hoop", "Yo-Yo", "Kite", "Puzzle", "Board Game", "Dominoes", "Chess"
+    ];
+    
+    const places = [
+      "School", "Hospital", "Police Station", "Fire Station", "Library", "Mall", "Restaurant", "Cafe", "Airport", "Train Station",
+      "Amusement Park", "Zoo", "Museum", "Cinema", "Theater", "Church", "Temple", "Mosque", "Park", "Playground",
+      "Beach", "Mountain", "Lake", "River", "Island", "Cave", "Forest", "Jungle", "Waterfall", "Desert",
+      "Village", "Town", "City", "Market", "Farm", "Factory", "Warehouse", "Bus Stop", "Bridge", "Tunnel",
+      "Skyscraper", "Bank", "Post Office", "Gym", "Stadium", "Swimming Pool", "Parking Lot", "Gas Station", "Barbershop", "Salon",
+      "Hotel", "Resort", "Casino", "Ferry Terminal", "Highway", "Subway Station", "Cruise Ship", "Tower", "Palace", "Castle",
+      "Fortress", "Monument", "Plaza", "Square", "Embassy", "Consulate", "Harbor", "Lighthouse", "Observatory", "Arena",
+      "Cemetery", "Campsite", "Bakery", "Butcher Shop", "Grocery Store", "Flower Shop", "Toy Store", "Music Store", "Art Gallery", "Courthouse"
+    ];
+
+    const collegeLife = [
+      "Lecture", "Professor", "Dormitory", "Library", "Textbook", "Notebook", "Highlighter", "Exam", "Quiz", "Assignment",
+      "Thesis", "Group Project", "Presentation", "Midterms", "Finals", "Syllabus", "Lecture Hall", "Laboratory", "Internship", "Scholarship",
+      "Tuition", "Campus", "Backpack", "Cafeteria", "Meal Plan", "Coffee", "Energy Drink", "Student ID", "Registration", "Transcript",
+      "Commute", "Bicycle", "Bus Pass", "Online Class", "Laptop", "Printer", "Wi-Fi", "Dorm Room", "Roommate", "Student Lounge",
+      "Study Group", "Tutor", "Whiteboard", "Planner", "Flashcards", "Library Card", "Break Time", "Stress", "All-Nighter", "Curfew",
+      "Part-time Job", "Budget", "Savings", "Allowance", "Rent", "Bills", "Graduation", "Diploma", "Gown", "Cap and Tassel",
+      "Career Fair", "Job Interview", "Resume", "Cover Letter", "Networking", "LinkedIn", "Student Organization", "Club", "Sports Team", "Gym",
+      "Orientation", "Freshman", "Sophomore", "Junior", "Senior", "Alumni", "Dean’s List", "Honor Roll", "Valedictorian", "Salutatorian",
+      "Greek Life", "Fraternity", "Sorority", "Event Ticket", "Concert", "Study Abroad", "Exchange Student", "Lecture Notes", "E-Learning", "Coding Bootcamp",
+      "Research Paper", "Citation", "Plagiarism", "Lab Report", "Essay", "Debate", "Case Study", "Field Trip", "Extracurricular", "Self-Study"
+    ];
+
+    const asianNovelas = [
+      "Boys Over Flowers", "Meteor Garden", "Full House", "Autumn in My Heart", "Winter Sonata", "My Love from the Star", "Descendants of the Sun", "Crash Landing on You", "The Heirs", "Goblin",
+      "Strong Woman Do Bong Soon", "Weightlifting Fairy Kim Bok Joo", "Hotel Del Luna", "Vincenzo", "It's Okay to Not Be Okay", "Business Proposal", "True Beauty", "Start-Up", "Twenty-Five Twenty-One", "Extraordinary Attorney Woo",
+      "Reborn Rich", "Hometown Cha-Cha-Cha", "While You Were Sleeping", "Legend of the Blue Sea", "The King: Eternal Monarch", "Pinocchio", "W: Two Worlds", "Secret Garden", "Itaewon Class", "A Love So Beautiful",
+      "Love O2O", "The Untamed", "Ashes of Love", "Eternal Love: Ten Miles of Peach Blossoms", "Put Your Head on My Shoulder", "Go Ahead", "You Are My Glory", "Hidden Love", "Meteor Garden (2018)", "My Girlfriend is an Alien",
+      "Skate Into Love", "Le Coup de Foudre", "Intense Love", "My Little Happiness", "Unforgettable Love", "Word of Honor", "Who Rules the World", "Love Between Fairy and Devil", "Meet Yourself", "Royal Nirvana",
+      "Moon Lovers: Scarlet Heart Ryeo", "Love in the Moonlight", "Queen Seondeok", "The Princess' Man", "Jewel in the Palace", "Dong Yi", "Mr. Queen", "Empress Ki", "Moon Embracing the Sun", "The Red Sleeve",
+      "Nodame Cantabile", "Hana Yori Dango", "1 Litre of Tears", "Good Morning Call", "Rich Man, Poor Woman", "You're My Pet", "My Boss, My Hero", "Zettai Kareshi", "Love Lasts Forever", "Alice in Borderland",
+      "Marimar", "Pangako Sa’Yo", "Sana Maulit Muli", "Tayong Dalawa", "On the Wings of Love", "Forevermore", "Wildflower", "The Legal Wife", "Walang Hanggan", "The Killer Bride",
+      "Kadenang Ginto", "Lobo", "Imortal", "La Luna Sangre", "Ang Probinsyano", "Mara Clara", "Maria Clara at Ibarra", "The General’s Daughter", "Dahil May Isang Ikaw", "Halik",
+      "Gulong ng Palad", "Ikaw Lang Ang Iibigin", "Maging Sino Ka Man", "Ika-6 na Utos", "My Husband’s Lover", "Amaya", "Encantadia", "Mulawin", "Majika", "Sugo"
+    ];
+
+    const famousAnime = [
+      "Naruto", "Naruto Shippuden", "Boruto: Naruto Next Generations", "One Piece", "Dragon Ball", "Dragon Ball Z", "Dragon Ball Super", "Attack on Titan", "Demon Slayer", "Jujutsu Kaisen",
+      "My Hero Academia", "Hunter x Hunter", "Bleach", "Black Clover", "Fullmetal Alchemist: Brotherhood", "Death Note", "Tokyo Revengers", "Chainsaw Man", "Sword Art Online", "Re:Zero - Starting Life in Another World",
+      "No Game No Life", "Code Geass", "Steins;Gate", "Neon Genesis Evangelion", "Cowboy Bebop", "Trigun", "Rurouni Kenshin", "Fairy Tail", "Blue Exorcist", "Noragami",
+      "The Seven Deadly Sins", "One Punch Man", "Mob Psycho 100", "Dr. Stone", "The Rising of the Shield Hero", "That Time I Got Reincarnated as a Slime", "Overlord", "Fate/stay night: Unlimited Blade Works", "Fate/Zero", "Claymore",
+      "Erased", "Your Lie in April", "Clannad", "Toradora!", "Kimi ni Todoke", "Fruits Basket", "Nana", "Ouran High School Host Club", "Lovely★Complex", "Rent-A-Girlfriend",
+      "The Quintessential Quintuplets", "Horimiya", "Kaguya-sama: Love is War", "Oshi no Ko", "Spy x Family", "Welcome to Demon School! Iruma-kun", "Assassination Classroom", "Haikyuu!!", "Kuroko no Basket", "Yuri on Ice",
+      "Inuyasha", "Spirited Away", "Howl’s Moving Castle", "My Neighbor Totoro", "Princess Mononoke", "Ponyo", "Weathering With You", "Your Name", "Vivy: Fluorite Eye’s Song", "The Garden of Words",
+      "Parasyte", "Hellsing", "Devilman Crybaby", "Akame ga Kill!", "High School DxD", "Gantz", "Elfen Lied", "Mirai Nikki", "Higurashi no Naku Koro Ni", "Tokyo Ghoul",
+      "Psycho-Pass", "Monster", "Vivy: Fluorite Eye's Song", "Made in Abyss", "The Promised Neverland", "Revolutionary Girl Utena", "Berserk", "Ghost in the Shell: Stand Alone Complex", "Serial Experiments Lain", "Texhnolyze",
+      "Samurai Champloo", "The Great Pretender", "Baccano!", "Durarara!!", "Barakamon", "Mushoku Tensei", "Summertime Render", "Zom 100: Bucket List of the Dead", "Hyouka", "March Comes in Like a Lion"
+    ];
+
+    const famousCartoons = [
+      "Tom and Jerry", "Scooby-Doo, Where Are You!", "Looney Tunes", "The Flintstones", "The Jetsons", "Popeye the Sailor", "Felix the Cat", "Mickey Mouse", "Donald Duck", "Goofy",
+      "DuckTales", "Chip 'n Dale: Rescue Rangers", "Darkwing Duck", "TaleSpin", "Gargoyles", "The Simpsons", "Family Guy", "American Dad!", "Futurama", "King of the Hill",
+      "The Powerpuff Girls", "Dexter’s Laboratory", "Johnny Bravo", "Ed, Edd n Eddy", "Courage the Cowardly Dog", "Codename: Kids Next Door", "Samurai Jack", "Teen Titans", "Justice League", "Batman: The Animated Series",
+      "Superman: The Animated Series", "Static Shock", "X-Men: The Animated Series", "Spider-Man: The Animated Series", "Ben 10", "Ben 10: Alien Force", "The Amazing World of Gumball", "Regular Show", "Adventure Time", "Steven Universe",
+      "Gravity Falls", "Rick and Morty", "BoJack Horseman", "The Boondocks", "South Park", "Beavis and Butt-Head", "Animaniacs", "Pinky and the Brain", "Tiny Toon Adventures", "Freakazoid!",
+      "Avatar: The Last Airbender", "The Legend of Korra", "Voltron: Legendary Defender", "She-Ra and the Princesses of Power", "He-Man and the Masters of the Universe", "ThunderCats", "Teenage Mutant Ninja Turtles", "Inspector Gadget", "Transformers: Prime", "Beetlejuice",
+      "The Mask: Animated Series", "The Real Ghostbusters", "Scooby-Doo! Mystery Incorporated", "The New Scooby-Doo Movies", "What's New, Scooby-Doo?", "SpongeBob SquarePants", "Rugrats", "Hey Arnold!", "Rocket Power", "The Wild Thornberrys",
+      "Doug", "Rocko’s Modern Life", "CatDog", "As Told by Ginger", "The Fairly OddParents", "Danny Phantom", "Jimmy Neutron: Boy Genius", "My Life as a Teenage Robot", "The Loud House", "Big City Greens",
+      "Phineas and Ferb", "Gravity Falls", "Recess", "Kim Possible", "Lilo & Stitch: The Series", "House of Mouse", "Chip 'n' Dale: Park Life", "The Emperor’s New School", "Fish Hooks", "Amphibia",
+      "The Owl House", "Bluey", "Peppa Pig", "Shaun the Sheep", "Larva", "Oggy and the Cockroaches", "Zig & Sharko", "Mr. Bean: The Animated Series", "Pocoyo", "Oswald"
+    ];
+    
+    
   
-  export { filipinoTVShows, filipinoMovies, filipinoIdiomsSayings, ecosystem };
+  export { 
+    filipinoTVShows, 
+    filipinoMovies, 
+    filipinoIdiomsSayings, 
+    ecosystem,
+    animals,
+    professions,
+    places,
+    collegeLife,
+    famousAnime,
+    famousCartoons,
+    asianNovelas 
+  };
   
